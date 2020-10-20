@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box
+}
+body{
+    margin: auto;
+    background color: rgb(132,134,131);
+}
+.gradiente{
+    background: rgb(132,134,131);
+    background: linear-gradient(90deg, rgba(132,134,131,1) 11%, rgba(174,210,210,1) 33%, rgba(98,169,173,1) 56%, rgba(128,128,128,1) 71%, rgba(101,101,115,1) 128%);
+    height: 80px;
+    font-family: mypoppinsfonts;
+}
+@font-face{
+    font-family: mypoppinsfonts;
+    src: url("fonts/Poppins-ExtraBoldItalic.ttf");
+}
+.frente{
+    position: absolute;
+    z-index: 1;
+}
+.redes{
+    width: 150px;
+    right: 250px;
+}
